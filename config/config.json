@@ -1,0 +1,18 @@
+{
+  "passport": {
+    "secret": "2FEAE10C687DF8856F295BD425F5A849F1EEABBC305518ABDDA29BED1AB78EAA",
+    "expiresIn": {
+      "access_token": "1m", 
+      "refresh_token": "3m"
+      }
+  },
+  "env": {
+    "mongoDBUri": "mongodb+srv://ConfigReader:12345678Abc@cluster0-7pv9s.mongodb.net/test?retryWrites=true&w=majority",
+    "databaseName": "administration",
+    "collectionName": "configuration"
+  },
+  "twitter": {
+    "apiKey": "YOUR TWITTER APIKEY",
+    "apiSecretKey": "YOUR TWITTER API SECRET KEY"
+  }
+}
